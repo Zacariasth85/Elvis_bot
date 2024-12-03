@@ -343,7 +343,7 @@ async def search_wikipedia(update: Update, context: ContextTypes.DEFAULT_TYPE):
     context.user_data.clear()
 
 def main():
-    application = ApplicationBuilder().token('7028644049:AAFyZvSxww7klIxus3k6ObZi8srgxMvvdJk').build()
+    application = ApplicationBuilder().token('').build()
     
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("off", off))
